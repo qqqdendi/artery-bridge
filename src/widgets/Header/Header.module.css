@@ -1,0 +1,30 @@
+.firstWrapper {
+  text-align: center;
+}
+.firstWrapper .title1 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.firstWrapper .title1:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url("../");
+}
+
+.secondWrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+.secondWrapper .logo_block {
+  color: #Fff;
+}
+.secondWrapper .connectBtn {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  right: 0px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
